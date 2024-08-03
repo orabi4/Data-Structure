@@ -185,6 +185,8 @@ public:
             p->next = t;
 
         }
+
+
     }
     void insertback(const T& value)
     {
@@ -221,6 +223,8 @@ public:
             }
             t->next = p->next;
             delete p;
+
+
         }
 
 
